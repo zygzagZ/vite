@@ -1,9 +1,11 @@
 import { useState } from 'react'
+import Decorator from './Decorator'
 
 function App() {
   const [count, setCount] = useState(0)
   return (
     <div className="App">
+      <Decorator/>
       <header className="App-header">
         <h1>Hello Vite + React</h1>
         <p>
